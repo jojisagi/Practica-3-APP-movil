@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D8B4FE"/>
+      <stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <polygon points="128.00,28.00 230.19,205.00 25.81,205.00" fill="#9333EA" stroke="#4C1D95" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="128.00,28.00 230.19,205.00 181.14,170.68 128.00,78.64" fill="#812DD4" stroke="#4C1D95" stroke-opacity="0.35" stroke-width="2" stroke-linejoin="round"/><polygon points="230.19,205.00 25.81,205.00 74.86,170.68 181.14,170.68" fill="#6123AE" stroke="#4C1D95" stroke-opacity="0.35" stroke-width="2" stroke-linejoin="round"/><polygon points="25.81,205.00 128.00,28.00 128.00,78.64 74.86,170.68" fill="#D6B0FD" stroke="#4C1D95" stroke-opacity="0.35" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="128.00,78.64 181.14,170.68 74.86,170.68" fill="url(#t)" stroke="#D8B4FE" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <g fill="#FFFFFF">
+    <ellipse cx="106.8" cy="108.2" rx="16" ry="9" opacity="0.85" transform="rotate(-35 106.8 108.2)"/>
+    <path d="M165.8 140.1 l5 13 l13 5 l-13 5 l-5 13 l-5 -13 l-13 -5 l13 -5 z" opacity="0.9"/>
+  </g>
+</svg>
